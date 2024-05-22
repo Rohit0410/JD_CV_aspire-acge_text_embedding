@@ -163,7 +163,7 @@ def debug_app():
         # df1 = pd.DataFrame(list(sorted_dict_desc1.items()), columns=['Resume', 'Score'])
         
         st.dataframe(df, use_container_width=True, width=1200,hide_index=True)
-        # st.dataframe(df1, use_container_width=True, width=1200,hide_index=True)
+        # st.dataframe(df1, hide_index=True)
 
 if __name__ == "__main__":
     # app.run(host='0.0.0.0', port=3001, debug=True)
