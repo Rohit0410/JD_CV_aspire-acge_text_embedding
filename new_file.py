@@ -22,7 +22,7 @@ from transformers import BertTokenizer, BertModel
 from sklearn.metrics.pairwise import cosine_similarity
 # tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 # model = BertModel.from_pretrained("bert-base-uncased")
-from flask import Flask
+# from flask import Flask
 # Load the SentenceTransformer model
 from sentence_transformers import SentenceTransformer
 model1 = SentenceTransformer("aspire/acge_text_embedding")
